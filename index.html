@@ -17,29 +17,54 @@ Select ONE Additional Feature to Add
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Unit 1-4 project </title>
+    <title>Unit 1-4 project</title>
   </head>
   <body>
-  <style> 
-    
-    body{background-color:rgb(24, 8, 35)}
-    
-    h1{ color: rgb(198, 136, 236)}
-    
-    #title{background-color:white}
-    #ani-heading{background-color:purple}
-    
-    .hobbie-paragraphs{background-color:rgb(250, 243, 243)}
-    .categories{background-color:rgb(230, 213, 242)}
-    .animals{background-color:rgb(250,243,243)}
-    
-    img{border-radius:30px}
+    <style>
+      body {
+        background-color: rgb(116, 105, 182);
+      }
+
+      h1 {
+        color: rgb(198, 136, 236);
+      }
+
+      #title {
+        background-color: white;
+      }
+      #ani-heading {
+        background-color: rgb(191, 134, 230);
+      }
+      #an-head-two {
+        background-color: rgb(191, 134, 230);
+      }
+      .hobbie-paragraphs {
+        background-color: rgb(250, 243, 243);
+      }
+      .categories {
+        background-color: rgb(230, 213, 242);
+      }
+      .animals {
+        background-color: rgb(250, 243, 243);
+      }
+
+      img {
+        border-radius: 30px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
     </style>
-    
-    <h1>✨<u id= "title">All About Jazz</u>✨</h1>
-    <h2 class="categories"> Hobbies:</h2>
+    <a href="#hob">Hobbies</a>
+    <a href="#fav">Favorite Things</a>
+    <h1>✨<u id="title">All About Jazz</u>✨</h1>
+    <h2 class="categories" id="hob">Hobbies:</h2>
     <ul>
-      <li><em> <mark>Bike riding</mark></em></li>
+      <li>
+        <em> <mark>Bike riding</mark></em>
+      </li>
     </ul>
     <p class="hobbie-paragraphs">
       Since i was little i enjoyed being outside.<br />
@@ -48,7 +73,9 @@ Select ONE Additional Feature to Add
       or sit outside with me and let me practice!!
     </p>
     <ul>
-      <li> <em><mark>Painting</mark></em></li>
+      <li>
+        <em><mark>Painting</mark></em>
+      </li>
     </ul>
     <p class="hobbie-paragraphs">
       I am by <strong>no means</strong> an artist<br />
@@ -57,26 +84,86 @@ Select ONE Additional Feature to Add
       and just let my creativity take over
     </p>
     <ul>
-      <li> <em><mark>scrapbooking</mark></em></li>
+      <li>
+        <em><mark>scrapbooking</mark></em>
+      </li>
     </ul>
     <p class="hobbie-paragraphs">
       this hobby started with my love of stickers!<br />
       since young i would collect stickers and put them all in a book. Then, as
-      i got older i started adding tapes and images from magazines or just texured paper and have fun with it.
+      i got older i started adding tapes and images from magazines or just
+      texured paper and have fun with it.
     </p>
-    <h3 class= "categories">
-      Favorite Things:
-    </h3>
+    <h2 class="categories" id="fav">Favorite Things:</h2>
     <ul>
-      <li id="ani-heading"><strong>Animals:</strong></li></ul>
-    <p class= "animals"> dogs...  </p>
-    <img src="https://cdn.glitch.global/bfbfdd80-d5a5-4a0e-9422-e21df7e85da5/28bf54b6-512d-478d-bdd6-136b50acfe8f.image.jpeg?v=1727194405997"
-         width="250">
-    <p class= "animals">dolphins...   </p>
-    <img src="https://cdn.glitch.global/bfbfdd80-d5a5-4a0e-9422-e21df7e85da5/a811675c-3d5f-4232-9d4a-fcf68d7a9bc0.image.jpeg?v=1727194780068"
-         width="250">
-    <p class= "animals">foxes... </p>
-    <img src="https://cdn.glitch.global/bfbfdd80-d5a5-4a0e-9422-e21df7e85da5/9378c4a9-9f56-4579-b03c-4630799ef921.image.jpeg?v=1727194941629"
-         width="250">
+      <li id="ani-heading"><strong>Favorite Animals:</strong></li>
+    </ul>
+    <p class="animals">dogs...</p>
+    <a
+      href="https://www.nationalgeographic.com/animals/mammals/facts/domestic-dog"
+    >
+      see here for more
+    </a>
+
+    <img
+      src="https://cdn.glitch.global/bfbfdd80-d5a5-4a0e-9422-e21df7e85da5/28bf54b6-512d-478d-bdd6-136b50acfe8f.image.jpeg?v=1727194405997"
+      width="250"
+    />
+    <p class="animals">dolphins...</p>
+    <a href="https://www.nationalgeographic.com/animals/mammals/facts/dolphins"
+      >see here for more
+    </a>
+    <img
+      src="https://cdn.glitch.global/bfbfdd80-d5a5-4a0e-9422-e21df7e85da5/a811675c-3d5f-4232-9d4a-fcf68d7a9bc0.image.jpeg?v=1727194780068"
+      width="250"
+    />
+    <p class="animals">foxes...</p>
+    <a
+      href="https://www.nationalgeographic.com/related/724fe8d0-22e4-399b-81da-c56e5d247165/foxes"
+      >see here for more
+    </a>
+    <img
+      src="https://cdn.glitch.global/bfbfdd80-d5a5-4a0e-9422-e21df7e85da5/9378c4a9-9f56-4579-b03c-4630799ef921.image.jpeg?v=1727194941629"
+      width="250"
+    />
+
+    <ul>
+      <li id="an-head-two"><strong>Favorite Songs:</strong></li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Song name</th>
+          <th>Artist</th>
+          <th>Favorite lyric</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dont fear the reaper</td>
+          <td>Blue oyster cult</td>
+          <td>
+            "seasons dont fear the reaper,nor do the wind,the sun or the sky"
+          </td>
+        </tr>
+        <tr>
+          <td>Static</td>
+          <td>Steve Lacy</td>
+          <td>
+            "cause im longing for something secure,if you had to stunt your
+            shining for your lover"
+          </td>
+        </tr>
+        <tr>
+          <td>So my darling</td>
+          <td>Rachel Chinouriri</td>
+          <td>
+            "and my heart beats stuck in a daze over our thoughts, and watching
+            me grow to be new "
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
